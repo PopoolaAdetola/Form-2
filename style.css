@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Welcome{
+    float: left;
+    width: 40%;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),  url(IMG_0707.JPG);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.form{
+    float:right;
+    width: 60%;
+}
+h1{
+    color: #ffffff;
+    margin-top: 250px;
+    text-align: center;
+    font-size: 600;
+    word-spacing: 4px;
+
+}
+p{
+    margin-top: 37px;
+    width: 50%;
+    line-height: 150%;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 200;
+    margin-left: 140px;
+}
+.alt{
+    margin-top: 5%;
+    position: relative;
+    left: 40%; 
+}
+.alt a{
+    padding: 8px 40px;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 40px;
+    font-size: 10px;
+    font-weight: 500;
+}
+.form{
+    float: right;
+    width: 60%;
+}
+.header{
+    margin-right: 290px;
+    margin-top: 60px;
+}
+.head{
+    margin-left: 210px;  
+    margin-bottom: 10px;
+    color: #5e0a2d;
+    font-weight: 700;
+    font-size: 35px
+}
+.icon-text{
+    font-size: 15px;
+    color: #555;
+    width: 100%;
+    margin-left: 100px;
+    margin-top: 10px
+}
+.form-container{
+    width: 400px;
+    margin-left:200px;
+}
+.icon{
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding: 10px 10px;
+    font-size: 20px;
+    width: 40px;
+    border-radius: 50%;
+    text-align: center;
+}
+.fa-facebook{
+    background: #55acee;
+    color: #fff;
+    transform: scale(1.2);
+    transition: background-color 0.5s, color 0.5s;
+}
+.fa-facebook:hover{
+    background-color: #fff;
+    color: #55acee;
+    transform: scale(0.9);
+}
+.icon:first-of-type{
+    margin-left: 270px;
+}
+.fa-google{
+    background: #db3236;
+    color: #fff;
+    transform: scale(1.2);
+    transition: background-color 0.5s, color 0.5s;
+}
+.fa-google:hover{
+    background-color: #fff;
+    color: #db3236;
+    transform: scale(0.9);
+}
+
+.fa-apple{
+background: #000000;
+color: #fff;
+transform: scale(1.2);
+transition: background-color 0.5s, color 0.5s;
+}
+.fa-apple:hover{
+    background-color: #fff;
+    color: #000000;
+    transform: scale(0.9);
+}
+.control{
+    background: transparent;
+    border: 0px transparent;width: 350px;
+    border-radius: 0px;
+    font-size: 15px;
+    padding: 20px;
+    border-bottom: 1px solid #555;
+}
+.control:before{
+    content: " ";
+    display: hidden;
+}
+.control:focus{
+    outline:none;
+}
+.btn-primary{
+    margin-top: 30px;
+    margin-left: 100px;
+    width: 130px;
+    font-size: 15px;
+    border-radius: 40px;
+    transition: color 0.5s, boder 0.5s, background-color 0.5s;
+}
+.btn-primary:hover{
+    border: 1px solid #55acee;
+    color: #55acee;
+    background-color: #fff;
+}

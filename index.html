@@ -1,0 +1,55 @@
+<?php
+require_once('db.php');
+?>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=e">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="queries.css">
+    <title>Form 2</title>
+</head>
+<body>
+    <div class="Welcome">
+        <h1>Welcome Back!</h1>
+        <p>To keep connected with us please log in with your personal info</p>
+        <div class="alt"><a href="#">SIGNIN</a></div>
+        
+    </div>
+    <div class="form">
+        <div class="header">
+            <h2 class="head">Create Account</h2>
+            <p class="icon-text">Signin with</p>
+            <a href="#" class="fa fa-facebook icon"></a>
+            <a href="#" class="fa fa-google icon"></a>
+            <a href="#" class="fa fa-apple icon"></a>
+        </div>
+        <form method="POST" action=" ">
+            <div class="form-container">
+                <input type="text" placeholder="Fullname" name="fullname" class="control" required>
+                <input type="email" placeholder="Email Address" name="email" class="control" required>
+                <input type="text" placeholder="PhoneNumber" name="phonenumber" class="control" required>
+                <input type="password" placeholder="Password" name="password" class="control" required>
+                <input type="password" placeholder="Confirm Password" name="confirm-p" class="control" required>
+                <button class="btn btn-primary" name="submit" value="signup">
+                    <i class="fa fa-user"></i>SIGNUP
+                </button>
+            </div>
+        </form>
+    </div>
+</body>
+   <script src="jquery-3.4.1.min.js"></script>
+   <script src="bootstrap.min.js"></script>
+</html>
+
+<?php
+require_once('setup.php');
+?>
+
+
